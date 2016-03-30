@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188EE5551CAB6EC4006E0F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EE5541CAB6EC4006E0F8C /* main.m */; };
+		188EE5581CAB6EC4006E0F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EE5571CAB6EC4006E0F8C /* AppDelegate.m */; };
+		188EE55B1CAB6EC4006E0F8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EE55A1CAB6EC4006E0F8C /* ViewController.m */; };
+		188EE55E1CAB6EC4006E0F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188EE55C1CAB6EC4006E0F8C /* Main.storyboard */; };
+		188EE5601CAB6EC4006E0F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188EE55F1CAB6EC4006E0F8C /* Assets.xcassets */; };
+		188EE5631CAB6EC4006E0F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188EE5611CAB6EC4006E0F8C /* LaunchScreen.storyboard */; };
+		188EE56E1CAB6EC4006E0F8C /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EE56D1CAB6EC4006E0F8C /* _________Tests.m */; };
+		188EE5791CAB6EC4006E0F8C /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EE5781CAB6EC4006E0F8C /* _________UITests.m */; };
+		188EE5941CAB74FE006E0F8C /* NSString+ZXingQRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EE5931CAB74FE006E0F8C /* NSString+ZXingQRImage.m */; };
+		EC136F8256C785CBB5930670 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DBCE340C013F198223BBD9 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188EE56A1CAB6EC4006E0F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188EE5481CAB6EC4006E0F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188EE54F1CAB6EC4006E0F8C;
+			remoteInfo = "识别相册图片二维码";
+		};
+		188EE5751CAB6EC4006E0F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188EE5481CAB6EC4006E0F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188EE54F1CAB6EC4006E0F8C;
+			remoteInfo = "识别相册图片二维码";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188EE5501CAB6EC4006E0F8C /* 识别相册图片二维码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "识别相册图片二维码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188EE5541CAB6EC4006E0F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188EE5561CAB6EC4006E0F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		188EE5571CAB6EC4006E0F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188EE5591CAB6EC4006E0F8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		188EE55A1CAB6EC4006E0F8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		188EE55D1CAB6EC4006E0F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188EE55F1CAB6EC4006E0F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188EE5621CAB6EC4006E0F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188EE5641CAB6EC4006E0F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188EE5691CAB6EC4006E0F8C /* 识别相册图片二维码Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "识别相册图片二维码Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188EE56D1CAB6EC4006E0F8C /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		188EE56F1CAB6EC4006E0F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188EE5741CAB6EC4006E0F8C /* 识别相册图片二维码UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "识别相册图片二维码UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188EE5781CAB6EC4006E0F8C /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		188EE57A1CAB6EC4006E0F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188EE5921CAB74FE006E0F8C /* NSString+ZXingQRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXingQRImage.h"; sourceTree = "<group>"; };
+		188EE5931CAB74FE006E0F8C /* NSString+ZXingQRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXingQRImage.m"; sourceTree = "<group>"; };
+		3F8FD182A69E946B7061648A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		64DBCE340C013F198223BBD9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDAB3CE5DD8BCA5A1D48C6B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188EE54D1CAB6EC4006E0F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC136F8256C785CBB5930670 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188EE5661CAB6EC4006E0F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188EE5711CAB6EC4006E0F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188EE5471CAB6EC4006E0F8C = {
+			isa = PBXGroup;
+			children = (
+				188EE5521CAB6EC4006E0F8C /* 识别相册图片二维码 */,
+				188EE56C1CAB6EC4006E0F8C /* 识别相册图片二维码Tests */,
+				188EE5771CAB6EC4006E0F8C /* 识别相册图片二维码UITests */,
+				188EE5511CAB6EC4006E0F8C /* Products */,
+				99F0AD60314FCF52668C9767 /* Pods */,
+				26C83DC6D94BBCADEF8FD3A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		188EE5511CAB6EC4006E0F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188EE5501CAB6EC4006E0F8C /* 识别相册图片二维码.app */,
+				188EE5691CAB6EC4006E0F8C /* 识别相册图片二维码Tests.xctest */,
+				188EE5741CAB6EC4006E0F8C /* 识别相册图片二维码UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188EE5521CAB6EC4006E0F8C /* 识别相册图片二维码 */ = {
+			isa = PBXGroup;
+			children = (
+				188EE5561CAB6EC4006E0F8C /* AppDelegate.h */,
+				188EE5571CAB6EC4006E0F8C /* AppDelegate.m */,
+				188EE5591CAB6EC4006E0F8C /* ViewController.h */,
+				188EE55A1CAB6EC4006E0F8C /* ViewController.m */,
+				188EE5921CAB74FE006E0F8C /* NSString+ZXingQRImage.h */,
+				188EE5931CAB74FE006E0F8C /* NSString+ZXingQRImage.m */,
+				188EE55C1CAB6EC4006E0F8C /* Main.storyboard */,
+				188EE55F1CAB6EC4006E0F8C /* Assets.xcassets */,
+				188EE5611CAB6EC4006E0F8C /* LaunchScreen.storyboard */,
+				188EE5641CAB6EC4006E0F8C /* Info.plist */,
+				188EE5531CAB6EC4006E0F8C /* Supporting Files */,
+			);
+			path = "识别相册图片二维码";
+			sourceTree = "<group>";
+		};
+		188EE5531CAB6EC4006E0F8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188EE5541CAB6EC4006E0F8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188EE56C1CAB6EC4006E0F8C /* 识别相册图片二维码Tests */ = {
+			isa = PBXGroup;
+			children = (
+				188EE56D1CAB6EC4006E0F8C /* _________Tests.m */,
+				188EE56F1CAB6EC4006E0F8C /* Info.plist */,
+			);
+			path = "识别相册图片二维码Tests";
+			sourceTree = "<group>";
+		};
+		188EE5771CAB6EC4006E0F8C /* 识别相册图片二维码UITests */ = {
+			isa = PBXGroup;
+			children = (
+				188EE5781CAB6EC4006E0F8C /* _________UITests.m */,
+				188EE57A1CAB6EC4006E0F8C /* Info.plist */,
+			);
+			path = "识别相册图片二维码UITests";
+			sourceTree = "<group>";
+		};
+		26C83DC6D94BBCADEF8FD3A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64DBCE340C013F198223BBD9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99F0AD60314FCF52668C9767 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EDAB3CE5DD8BCA5A1D48C6B /* Pods.debug.xcconfig */,
+				3F8FD182A69E946B7061648A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188EE54F1CAB6EC4006E0F8C /* 识别相册图片二维码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188EE57D1CAB6EC4006E0F8C /* Build configuration list for PBXNativeTarget "识别相册图片二维码" */;
+			buildPhases = (
+				85FCF6449FB75BCF384C999D /* Check Pods Manifest.lock */,
+				188EE54C1CAB6EC4006E0F8C /* Sources */,
+				188EE54D1CAB6EC4006E0F8C /* Frameworks */,
+				188EE54E1CAB6EC4006E0F8C /* Resources */,
+				67ED8A9D898D41F58D8379D9 /* Embed Pods Frameworks */,
+				698D782CD56DBC761A6ADD18 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "识别相册图片二维码";
+			productName = "识别相册图片二维码";
+			productReference = 188EE5501CAB6EC4006E0F8C /* 识别相册图片二维码.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188EE5681CAB6EC4006E0F8C /* 识别相册图片二维码Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188EE5801CAB6EC4006E0F8C /* Build configuration list for PBXNativeTarget "识别相册图片二维码Tests" */;
+			buildPhases = (
+				188EE5651CAB6EC4006E0F8C /* Sources */,
+				188EE5661CAB6EC4006E0F8C /* Frameworks */,
+				188EE5671CAB6EC4006E0F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188EE56B1CAB6EC4006E0F8C /* PBXTargetDependency */,
+			);
+			name = "识别相册图片二维码Tests";
+			productName = "识别相册图片二维码Tests";
+			productReference = 188EE5691CAB6EC4006E0F8C /* 识别相册图片二维码Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		188EE5731CAB6EC4006E0F8C /* 识别相册图片二维码UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188EE5831CAB6EC4006E0F8C /* Build configuration list for PBXNativeTarget "识别相册图片二维码UITests" */;
+			buildPhases = (
+				188EE5701CAB6EC4006E0F8C /* Sources */,
+				188EE5711CAB6EC4006E0F8C /* Frameworks */,
+				188EE5721CAB6EC4006E0F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188EE5761CAB6EC4006E0F8C /* PBXTargetDependency */,
+			);
+			name = "识别相册图片二维码UITests";
+			productName = "识别相册图片二维码UITests";
+			productReference = 188EE5741CAB6EC4006E0F8C /* 识别相册图片二维码UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188EE5481CAB6EC4006E0F8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "周天雨";
+				TargetAttributes = {
+					188EE54F1CAB6EC4006E0F8C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					188EE5681CAB6EC4006E0F8C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 188EE54F1CAB6EC4006E0F8C;
+					};
+					188EE5731CAB6EC4006E0F8C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 188EE54F1CAB6EC4006E0F8C;
+					};
+				};
+			};
+			buildConfigurationList = 188EE54B1CAB6EC4006E0F8C /* Build configuration list for PBXProject "识别相册图片二维码" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188EE5471CAB6EC4006E0F8C;
+			productRefGroup = 188EE5511CAB6EC4006E0F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188EE54F1CAB6EC4006E0F8C /* 识别相册图片二维码 */,
+				188EE5681CAB6EC4006E0F8C /* 识别相册图片二维码Tests */,
+				188EE5731CAB6EC4006E0F8C /* 识别相册图片二维码UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188EE54E1CAB6EC4006E0F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188EE5631CAB6EC4006E0F8C /* LaunchScreen.storyboard in Resources */,
+				188EE5601CAB6EC4006E0F8C /* Assets.xcassets in Resources */,
+				188EE55E1CAB6EC4006E0F8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188EE5671CAB6EC4006E0F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188EE5721CAB6EC4006E0F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67ED8A9D898D41F58D8379D9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		698D782CD56DBC761A6ADD18 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FCF6449FB75BCF384C999D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188EE54C1CAB6EC4006E0F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188EE55B1CAB6EC4006E0F8C /* ViewController.m in Sources */,
+				188EE5581CAB6EC4006E0F8C /* AppDelegate.m in Sources */,
+				188EE5551CAB6EC4006E0F8C /* main.m in Sources */,
+				188EE5941CAB74FE006E0F8C /* NSString+ZXingQRImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188EE5651CAB6EC4006E0F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188EE56E1CAB6EC4006E0F8C /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188EE5701CAB6EC4006E0F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188EE5791CAB6EC4006E0F8C /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188EE56B1CAB6EC4006E0F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188EE54F1CAB6EC4006E0F8C /* 识别相册图片二维码 */;
+			targetProxy = 188EE56A1CAB6EC4006E0F8C /* PBXContainerItemProxy */;
+		};
+		188EE5761CAB6EC4006E0F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188EE54F1CAB6EC4006E0F8C /* 识别相册图片二维码 */;
+			targetProxy = 188EE5751CAB6EC4006E0F8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188EE55C1CAB6EC4006E0F8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188EE55D1CAB6EC4006E0F8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188EE5611CAB6EC4006E0F8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188EE5621CAB6EC4006E0F8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188EE57B1CAB6EC4006E0F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188EE57C1CAB6EC4006E0F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188EE57E1CAB6EC4006E0F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EDAB3CE5DD8BCA5A1D48C6B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "识别相册图片二维码/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhoutianyu.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		188EE57F1CAB6EC4006E0F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8FD182A69E946B7061648A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "识别相册图片二维码/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhoutianyu.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		188EE5811CAB6EC4006E0F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "识别相册图片二维码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhoutianyu.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/识别相册图片二维码.app/识别相册图片二维码";
+			};
+			name = Debug;
+		};
+		188EE5821CAB6EC4006E0F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "识别相册图片二维码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhoutianyu.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/识别相册图片二维码.app/识别相册图片二维码";
+			};
+			name = Release;
+		};
+		188EE5841CAB6EC4006E0F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "识别相册图片二维码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhoutianyu.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "识别相册图片二维码";
+			};
+			name = Debug;
+		};
+		188EE5851CAB6EC4006E0F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "识别相册图片二维码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhoutianyu.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "识别相册图片二维码";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188EE54B1CAB6EC4006E0F8C /* Build configuration list for PBXProject "识别相册图片二维码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188EE57B1CAB6EC4006E0F8C /* Debug */,
+				188EE57C1CAB6EC4006E0F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188EE57D1CAB6EC4006E0F8C /* Build configuration list for PBXNativeTarget "识别相册图片二维码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188EE57E1CAB6EC4006E0F8C /* Debug */,
+				188EE57F1CAB6EC4006E0F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188EE5801CAB6EC4006E0F8C /* Build configuration list for PBXNativeTarget "识别相册图片二维码Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188EE5811CAB6EC4006E0F8C /* Debug */,
+				188EE5821CAB6EC4006E0F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188EE5831CAB6EC4006E0F8C /* Build configuration list for PBXNativeTarget "识别相册图片二维码UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188EE5841CAB6EC4006E0F8C /* Debug */,
+				188EE5851CAB6EC4006E0F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188EE5481CAB6EC4006E0F8C /* Project object */;
+}
